@@ -27,6 +27,10 @@ version-resolver:
       - "*"
   default: patch
 template: |
-  ## Changes
+  ## What's Changed
 
   $CHANGES
+  
+  ## New Contributors
+  
+  $CONTRIBUTORS
