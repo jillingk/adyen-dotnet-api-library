@@ -1,5 +1,18 @@
 name-template: 'Adyen .net API Library $RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
+categories:
+  - title: Breaking Changes 🛠
+    labels:
+      - Breaking change
+  - title: New Features 💎
+    labels:
+      - Feature
+  - title: Fixes ⛑️
+    labels:
+      - Fix
+  - title: Other Changes 🖇️
+    labels:
+      - "*"
 version-resolver:
   major:
     labels:
@@ -12,4 +25,8 @@ version-resolver:
       - 'Fix'
       - '*'
   default: patch
+tag-template: - $TITLE @$AUTHOR (#$NUMBER)
 template: |
+  ## Changes
+
+  $CHANGES
