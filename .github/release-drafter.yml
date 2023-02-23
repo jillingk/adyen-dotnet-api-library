@@ -13,19 +13,19 @@ categories:
   - title: Other Changes 🖇️
     labels:
       - "*"
+
 version-resolver:
   major:
     labels:
-      - 'Breaking change'
+      - Breaking change
   minor:
     labels:
-      - 'Feature'
+      - Feature
   patch:
     labels:
-      - 'Fix'
-      - '*'
+      - Fix
+      - "*"
   default: patch
-tag-template: - $TITLE @$AUTHOR (#$NUMBER)
 template: |
   ## Changes
 
