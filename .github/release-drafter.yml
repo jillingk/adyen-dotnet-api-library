@@ -2,24 +2,24 @@ name-template: 'Adyen .net API Library $RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
 categories:
   - title: Breaking Changes 🛠
-    labels:
+    label:
       - Breaking change
   - title: New Features 💎
-    labels:
+    label:
       - Feature
   - title: Fixes ⛑️
-    labels:
+    label:
       - Fix
   - title: Other Changes 🖇️
     labels:
       - "*"
-tag-template: - $TITLE @$AUTHOR (#$NUMBER)
+
 version-resolver:
   major:
-    labels:
+    label:
       - Breaking change
   minor:
-    labels:
+    label:
       - Feature
   patch:
     labels:
