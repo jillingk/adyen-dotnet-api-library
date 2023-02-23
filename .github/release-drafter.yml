@@ -1,20 +1,5 @@
 name-template: 'Adyen .net API Library $RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
-categories:
-  - title: 'Breaking Changes 🛠'
-    labels:
-      - 'Breaking change'
-  - title: 'New Features 💎'
-    labels:
-      - 'Feature'
-  - title: 'Fixes ⛑️'
-    labels:
-      - 'Fix'
-  - title: 'Other Changes 🖇️'
-    labels:
-      - '*'
-change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
-change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 version-resolver:
   major:
     labels:
@@ -28,6 +13,3 @@ version-resolver:
       - '*'
   default: patch
 template: |
-  ## Changes
-  
-  $CHANGES
