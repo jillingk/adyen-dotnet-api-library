@@ -1,5 +1,5 @@
-name-template: 'v$RESOLVED_VERSION 🌈'
-tag-template: 'v$RESOLVED_VERSION'
+name-template: 'Adyen .net API Library $RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
 categories:
   - title: 'Breaking Changes 🛠'
     labels:
