@@ -18,13 +18,14 @@ change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add
 version-resolver:
   major:
     labels:
-      - 'major'
+      - 'Breaking change'
   minor:
     labels:
-      - 'minor'
+      - 'Feature'
   patch:
     labels:
-      - 'patch'
+      - 'Fix'
+      - '*'
   default: patch
 template: |
   ## Changes
