@@ -13,7 +13,7 @@ categories:
   - title: Other Changes 🖇️
     labels:
       - "*"
-
+tag-template: - $TITLE @$AUTHOR (#$NUMBER)
 version-resolver:
   major:
     labels:
