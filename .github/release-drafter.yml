@@ -1,17 +1,17 @@
 categories:
-  - title: Breaking Changes 🛠
+  - title: 'Breaking Changes 🛠'
     labels:
-      - Breaking change
-  - title: New Features 💎
+      - 'Breaking change'
+  - title: 'New Features 💎'
     labels:
-      - Feature
-  - title: Fixes ⛑️
+      - 'Feature'
+  - title: 'Fixes ⛑️'
     labels:
-      - Fix
-  - title: Other Changes 🖇️
+      - 'Fix'
+  - title: 'Other Changes 🖇️'
     labels:
-      - "*"
+      - '*'
 template: |
-  ## What’s Changed
+  ## Changes
 
-  $CHANGES
+      $CHANGES
